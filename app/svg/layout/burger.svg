@@ -1,0 +1,18 @@
+<svg width="35" height="35" class="overflow-hidden" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path 
+  class="transition-all origin-center [transform-box:fill-box] group-[.active]:[transform:translateY(7.3)_rotate(45deg)_scale(0.7)] group-[.active]:stroke-[1.8]"
+  d="M30.625 9.61459H4.375C4.05323 9.61459 3.78125 9.88657 3.78125 10.2083C3.78125 10.5301 4.05323 10.8021 4.375 10.8021H30.625C30.9468 10.8021 31.2188 10.5301 31.2188 10.2083C31.2188 9.88657 30.9468 9.61459 30.625 9.61459Z" 
+  fill="#5E5471" 
+  stroke="#5E5471"
+/>
+<path 
+  class="transition-all group-[.active]:opacity-0"
+  d="M30.625 16.9062H4.375C4.05323 16.9062 3.78125 17.1782 3.78125 17.5C3.78125 17.8218 4.05323 18.0938 4.375 18.0938H30.625C30.9468 18.0938 31.2188 17.8218 31.2188 17.5C31.2188 17.1782 30.9468 16.9062 30.625 16.9062Z" 
+  fill="#5E5471" 
+  stroke="#5E5471"/>
+<path 
+  class="transition-all origin-center [transform-box:fill-box] group-[.active]:[transform:translateY(-7.3)_rotate(-45deg)_scale(0.7)] group-[.active]:stroke-[1.8]"
+  d="M30.625 24.1979H4.375C4.05323 24.1979 3.78125 24.4699 3.78125 24.7917C3.78125 25.1134 4.05323 25.3854 4.375 25.3854H30.625C30.9468 25.3854 31.2188 25.1134 31.2188 24.7917C31.2188 24.4699 30.9468 24.1979 30.625 24.1979Z" 
+  fill="#5E5471" 
+  stroke="#5E5471"/>
+</svg>

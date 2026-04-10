@@ -1,0 +1,145 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="66"
+  height="66"
+  viewBox="0 0 66 66"
+  fill="none"
+>
+  <style>
+    .loader-star {
+      transform-origin: 33px 33px;
+      transform-box: fill-box;
+      animation: loader-star-rotate 3300ms linear infinite;
+      will-change: transform;
+    }
+    .loader-corner {
+      animation: loader-corner-move 3300ms linear infinite;
+      will-change: transform, opacity;
+    }
+    .loader-hole-cutout {
+      animation: loader-hole 3300ms linear infinite;
+      will-change: opacity;
+    }
+
+    @keyframes loader-star-rotate {
+      0% {
+        transform: rotate(0deg);
+        animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+      }
+      23.2727% {
+        transform: rotate(185deg);
+      }
+      24.2424% {
+        transform: rotate(180deg);
+      }
+      33.3333% {
+        transform: rotate(180deg);
+        animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+      }
+      56.6061% {
+        transform: rotate(275deg);
+      }
+      57.5758% {
+        transform: rotate(270deg);
+      }
+      66.6667% {
+        transform: rotate(270deg);
+        animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+      }
+      89.9394% {
+        transform: rotate(365deg);
+      }
+      90.9091% {
+        transform: rotate(360deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+
+    @keyframes loader-corner-move {
+      0% {
+        opacity: 0;
+        transform: translate(24.75px, 24.75px);
+      }
+      33.3333% {
+        opacity: 0;
+        transform: translate(24.75px, 24.75px);
+      }
+      45.4545% {
+        opacity: 1;
+        transform: translate(37.125px, 12.375px);
+      }
+      57.5758% {
+        opacity: 1;
+        transform: translate(49.5px, 0);
+      }
+      66.6667% {
+        opacity: 1;
+        transform: translate(49.5px, 0);
+        animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+      }
+      90.9091% {
+        opacity: 0;
+        transform: translate(49.5px, 0);
+      }
+      100% {
+        opacity: 0;
+        transform: translate(49.5px, 0);
+      }
+    }
+
+    @keyframes loader-hole {
+      0% {
+        opacity: 0;
+      }
+      33.3333% {
+        opacity: 0;
+        animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+      }
+      57.5758% {
+        opacity: 1;
+      }
+      66.6667% {
+        opacity: 1;
+        animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+      }
+      90.9091% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
+  </style>
+
+  <defs>
+    <mask id="loader-asterisk-mask" maskUnits="userSpaceOnUse">
+      <rect width="66" height="66" fill="#fff" />
+      <path
+        class="loader-hole-cutout"
+        d="M37.86 37.74L37.94 47.64L51.40 60.95L61.22 50.97L47.76 37.66Z"
+        fill="#000"
+        opacity="0"
+      />
+    </mask>
+  </defs>
+
+  <g class="loader-star" mask="url(#loader-asterisk-mask)">
+    <path
+      d="M32.7692 0V66M0 32.8479h32.7692M66 32.8479H32.7692M10 10.1889l22.7692 22.659M56.3077 55.9631 32.7692 32.8479M32.7692 32.8479 9.38461 55.9631M32.7692 32.8479 56.3077 10.1889"
+      stroke="currentColor"
+      stroke-width="10.0287"
+    />
+  </g>
+
+  <g class="loader-corner" opacity="0">
+    <g transform="scale(0.825)">
+      <path
+        d="M0 4.17871h15.5385V19.7172"
+        stroke="#A357FF"
+        stroke-width="8.35722"
+      />
+    </g>
+  </g>
+</svg>

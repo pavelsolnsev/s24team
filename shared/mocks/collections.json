@@ -1,0 +1,70 @@
+{
+  "items": [
+    {
+      "id": "1",
+      "name": "Вдохновляющие работы",
+      "totalProjects": 15,
+      "projects": [
+        { "id": "3", "image": "/mocks/projects/3.webp" },
+        { "id": "7", "image": "/mocks/projects/7.webp" },
+        { "id": "11", "image": "/mocks/projects/11.webp" },
+        { "id": "15", "image": "/mocks/projects/3.webp" },
+        { "id": "19", "image": "/mocks/projects/7.webp" },
+        { "id": "1", "image": "/mocks/projects/1.webp" },
+        { "id": "5", "image": "/mocks/projects/5.webp" },
+        { "id": "9", "image": "/mocks/projects/9.webp" },
+        { "id": "13", "image": "/mocks/projects/1.webp" },
+        { "id": "17", "image": "/mocks/projects/5.webp" },
+        { "id": "2", "image": "/mocks/projects/2.webp" },
+        { "id": "6", "image": "/mocks/projects/6.webp" },
+        { "id": "10", "image": "/mocks/projects/10.webp" },
+        { "id": "14", "image": "/mocks/projects/2.webp" },
+        { "id": "18", "image": "/mocks/projects/6.webp" }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Упаковка",
+      "totalProjects": 3,
+      "projects": [
+        { "id": "4", "image": "/mocks/projects/4.webp" },
+        { "id": "12", "image": "/mocks/projects/12.webp" },
+        { "id": "20", "image": "/mocks/projects/8.webp" }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Веб-дизайн",
+      "totalProjects": 0,
+      "projects": []
+    },
+    {
+      "id": "4",
+      "name": "Графический дизайн",
+      "totalProjects": 1,
+      "projects": [{ "id": "8", "image": "/mocks/projects/8.webp" }]
+    },
+    {
+      "id": "5",
+      "name": "Постеры",
+      "totalProjects": 4,
+      "projects": [
+        { "id": "4", "image": "/mocks/projects/4.webp" },
+        { "id": "8", "image": "/mocks/projects/8.webp" },
+        { "id": "15", "image": "/mocks/projects/3.webp" },
+        { "id": "19", "image": "/mocks/projects/7.webp" }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Брендинг",
+      "totalProjects": 2,
+      "projects": [
+        { "id": "10", "image": "/mocks/projects/10.webp" },
+        { "id": "19", "image": "/mocks/projects/7.webp" }
+      ]
+    }
+  ],
+  "totalItems": 6,
+  "pagination": { "pageSize": 6, "currentPage": 1 }
+}

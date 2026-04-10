@@ -1,0 +1,11 @@
+{
+  "id": "1",
+  "name": "Демо-интерфейс для творческих профессий:",
+  "description": "портфолио и практика (учебный макет)",
+  "imageDesktop": "/images/index/platform-d.webp",
+  "imageMobile": "/images/index/platform-m.webp",
+  "links": [
+    { "url": "/registration", "label": "Зарегистрироваться" },
+    { "url": "/about", "label": "О демо" }
+  ]
+}

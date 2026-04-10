@@ -1,0 +1,609 @@
+{
+  "items": [
+    {
+      "id": "1",
+      "name": "Праздники",
+      "authors": [
+        {
+          "id": "123456",
+          "name": "petrov2007",
+          "avatar": null
+        },
+        {
+          "id": "123458",
+          "name": "petrov2006",
+          "avatar": "/mocks/avatars/1.webp"
+        },
+        {
+          "id": "123457",
+          "name": "petrova2007",
+          "avatar": "/mocks/avatars/2.webp"
+        },
+        {
+          "id": "123456",
+          "name": "petrov2007",
+          "avatar": null
+        },
+        {
+          "id": "123456",
+          "name": "petrov2007",
+          "avatar": null
+        },
+        {
+          "id": "123457",
+          "name": "petrova2007",
+          "avatar": "/mocks/avatars/2.webp"
+        },
+        {
+          "id": "123458",
+          "name": "petrov2006",
+          "avatar": "/mocks/avatars/1.webp"
+        }
+      ],
+      "likes": 22,
+      "categories": [
+        "Упаковка",
+        "Графический дизайн"
+      ],
+      "watched": 25,
+      "image": "/mocks/projects/1.webp",
+      "collections": [
+        "1"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Название прекрасной работы студента",
+      "authors": [
+        {
+          "id": "123458",
+          "name": "petrov2006",
+          "avatar": "/mocks/avatars/1.webp"
+        },
+        {
+          "id": "123457",
+          "name": "petrova2007",
+          "avatar": "/mocks/avatars/2.webp"
+        }
+      ],
+      "likes": 22,
+      "categories": [
+        "Упаковка",
+        "Графический дизайн"
+      ],
+      "watched": 25,
+      "image": "/mocks/projects/2.webp",
+      "collections": [
+        "1"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Грусть",
+      "authors": [
+        {
+          "id": "123458",
+          "name": "petrov2006",
+          "avatar": "/mocks/avatars/1.webp"
+        }
+      ],
+      "likes": 150,
+      "categories": [
+        "Упаковка",
+        "Графический дизайн"
+      ],
+      "watched": 215,
+      "image": "/mocks/projects/3.webp",
+      "collections": [
+        "1"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Неоновый цвет",
+      "authors": [
+        {
+          "id": "123457",
+          "name": "petrova2007",
+          "avatar": "/mocks/avatars/2.webp"
+        }
+      ],
+      "likes": 150,
+      "categories": [
+        "Упаковка",
+        "Графический дизайн"
+      ],
+      "watched": 215,
+      "image": "/mocks/projects/4.webp",
+      "collections": [
+        "2",
+        "5"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Кофе",
+      "authors": [
+        {
+          "id": "123456",
+          "name": "petrov2007",
+          "avatar": null
+        }
+      ],
+      "likes": 150,
+      "categories": [
+        "Упаковка",
+        "Графический дизайн"
+      ],
+      "watched": 215,
+      "image": "/mocks/projects/5.webp",
+      "collections": [
+        "1"
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Цветы",
+      "authors": [
+        {
+          "id": "123458",
+          "name": "petrov2006",
+          "avatar": "/mocks/avatars/1.webp"
+        }
+      ],
+      "likes": 150,
+      "categories": [
+        "Упаковка",
+        "Графический дизайн"
+      ],
+      "watched": 215,
+      "image": "/mocks/projects/6.webp",
+      "collections": [
+        "1"
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Абстракции",
+      "authors": [
+        {
+          "id": "123457",
+          "name": "petrova2007",
+          "avatar": "/mocks/avatars/2.webp"
+        }
+      ],
+      "likes": 150,
+      "categories": [
+        "Упаковка",
+        "Графический дизайн"
+      ],
+      "watched": 215,
+      "image": "/mocks/projects/7.webp",
+      "collections": [
+        "1"
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Еда",
+      "authors": [
+        {
+          "id": "123456",
+          "name": "petrov2007",
+          "avatar": null
+        }
+      ],
+      "likes": 150,
+      "categories": [
+        "Упаковка",
+        "Графический дизайн"
+      ],
+      "watched": 215,
+      "image": "/mocks/projects/8.webp",
+      "collections": [
+        "4",
+        "5"
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Не останавливайся",
+      "authors": [
+        {
+          "id": "123458",
+          "name": "petrov2006",
+          "avatar": "/mocks/avatars/1.webp"
+        }
+      ],
+      "likes": 150,
+      "categories": [
+        "Упаковка",
+        "Графический дизайн"
+      ],
+      "watched": 215,
+      "image": "/mocks/projects/9.webp",
+      "collections": [
+        "1"
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Замок",
+      "authors": [
+        {
+          "id": "123456",
+          "name": "petrov2007",
+          "avatar": null
+        }
+      ],
+      "likes": 150,
+      "categories": [
+        "Архитектура",
+        "Графический дизайн"
+      ],
+      "watched": 215,
+      "image": "/mocks/projects/10.webp",
+      "collections": [
+        "1",
+        "6"
+      ]
+    },
+    {
+      "id": "11",
+      "name": "Праздники",
+      "authors": [
+        {
+          "id": "123456",
+          "name": "petrov2007",
+          "avatar": null
+        },
+        {
+          "id": "123458",
+          "name": "petrov2006",
+          "avatar": "/mocks/avatars/1.webp"
+        },
+        {
+          "id": "123458",
+          "name": "petrov2006",
+          "avatar": "/mocks/avatars/1.webp"
+        },
+        {
+          "id": "123458",
+          "name": "petrov2006",
+          "avatar": "/mocks/avatars/1.webp"
+        },
+        {
+          "id": "123458",
+          "name": "petrov2006",
+          "avatar": "/mocks/avatars/1.webp"
+        },
+        {
+          "id": "123457",
+          "name": "petrova2007",
+          "avatar": "/mocks/avatars/2.webp"
+        },
+        {
+          "id": "123458",
+          "name": "petrov2006",
+          "avatar": "/mocks/avatars/1.webp"
+        }
+      ],
+      "likes": 22,
+      "categories": [
+        "Упаковка",
+        "Графический дизайн"
+      ],
+      "watched": 25,
+      "image": "/mocks/projects/11.webp",
+      "collections": [
+        "1"
+      ]
+    },
+    {
+      "id": "12",
+      "name": "Название прекрасной работы студента",
+      "authors": [
+        {
+          "id": "123458",
+          "name": "petrov2006",
+          "avatar": "/mocks/avatars/1.webp"
+        },
+        {
+          "id": "123457",
+          "name": "petrova2007",
+          "avatar": "/mocks/avatars/2.webp"
+        }
+      ],
+      "likes": 22,
+      "categories": [
+        "Упаковка",
+        "Графический дизайн"
+      ],
+      "watched": 25,
+      "image": "/mocks/projects/12.webp",
+      "collections": [
+        "2"
+      ]
+    },
+    {
+      "id": "13",
+      "name": "Грусть",
+      "authors": [
+        {
+          "id": "123456",
+          "name": "petrov2007",
+          "avatar": null
+        }
+      ],
+      "likes": 150,
+      "categories": [
+        "Упаковка",
+        "Графический дизайн"
+      ],
+      "watched": 215,
+      "image": "/mocks/projects/1.webp",
+      "collections": [
+        "1"
+      ]
+    },
+    {
+      "id": "14",
+      "name": "Неоновый цвет",
+      "authors": [
+        {
+          "id": "123456",
+          "name": "petrov2007",
+          "avatar": null
+        }
+      ],
+      "likes": 150,
+      "categories": [
+        "Упаковка",
+        "Графический дизайн"
+      ],
+      "watched": 215,
+      "image": "/mocks/projects/2.webp",
+      "collections": [
+        "1"
+      ]
+    },
+    {
+      "id": "15",
+      "name": "Кофе",
+      "authors": [
+        {
+          "id": "123458",
+          "name": "petrov2006",
+          "avatar": "/mocks/avatars/1.webp"
+        }
+      ],
+      "likes": 150,
+      "categories": [
+        "Упаковка",
+        "Графический дизайн"
+      ],
+      "watched": 215,
+      "image": "/mocks/projects/3.webp",
+      "collections": [
+        "1",
+        "5"
+      ]
+    },
+    {
+      "id": "16",
+      "name": "Цветы",
+      "authors": [
+        {
+          "id": "123457",
+          "name": "petrova2007",
+          "avatar": "/mocks/avatars/2.webp"
+        }
+      ],
+      "likes": 150,
+      "categories": [
+        "Упаковка",
+        "Графический дизайн"
+      ],
+      "watched": 215,
+      "image": "/mocks/projects/4.webp",
+      "collections": []
+    },
+    {
+      "id": "17",
+      "name": "Абстракции",
+      "authors": [
+        {
+          "id": "123458",
+          "name": "petrov2006",
+          "avatar": "/mocks/avatars/1.webp"
+        }
+      ],
+      "likes": 150,
+      "categories": [
+        "Упаковка",
+        "Графический дизайн"
+      ],
+      "watched": 215,
+      "image": "/mocks/projects/5.webp",
+      "collections": [
+        "1"
+      ]
+    },
+    {
+      "id": "18",
+      "name": "Еда",
+      "authors": [
+        {
+          "id": "123458",
+          "name": "petrov2006",
+          "avatar": "/mocks/avatars/1.webp"
+        }
+      ],
+      "likes": 150,
+      "categories": [
+        "Упаковка",
+        "Графический дизайн"
+      ],
+      "watched": 215,
+      "image": "/mocks/projects/6.webp",
+      "collections": [
+        "1"
+      ]
+    },
+    {
+      "id": "19",
+      "name": "Не останавливайся",
+      "authors": [
+        {
+          "id": "123458",
+          "name": "petrov2006",
+          "avatar": "/mocks/avatars/1.webp"
+        }
+      ],
+      "likes": 150,
+      "categories": [
+        "Упаковка",
+        "Графический дизайн"
+      ],
+      "watched": 215,
+      "image": "/mocks/projects/7.webp",
+      "collections": [
+        "1",
+        "5",
+        "6"
+      ]
+    },
+    {
+      "id": "20",
+      "name": "Замок",
+      "authors": [
+        {
+          "id": "123457",
+          "name": "petrova2007",
+          "avatar": "/mocks/avatars/2.webp"
+        }
+      ],
+      "likes": 150,
+      "categories": [
+        "Архитектура",
+        "Графический дизайн"
+      ],
+      "watched": 215,
+      "image": "/mocks/projects/8.webp",
+      "collections": [
+        "2"
+      ]
+    }
+  ],
+  "totalItems": 20,
+  "pagination": {
+    "pageSize": 20,
+    "currentPage": 1
+  },
+  "filters": [
+    {
+      "id": "direction",
+      "name": "Направление",
+      "type": 1,
+      "items": [
+        {
+          "id": "1",
+          "name": "Все",
+          "disabled": false
+        },
+        {
+          "id": "2",
+          "name": "Дизайн",
+          "disabled": false
+        },
+        {
+          "id": "3",
+          "name": "Креативные концепции",
+          "disabled": false
+        },
+        {
+          "id": "4",
+          "name": "Архитектурные концепции",
+          "disabled": false
+        },
+        {
+          "id": "5",
+          "name": "Цифровая иллюстрация",
+          "disabled": false
+        },
+        {
+          "id": "6",
+          "name": "Креативное продюсирование",
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "id": "categories",
+      "name": "Категории",
+      "type": 2,
+      "items": [
+        {
+          "id": "1",
+          "direction": "Дизайн",
+          "name": "Графический дизайн",
+          "disabled": false
+        },
+        {
+          "id": "2",
+          "direction": "Дизайн",
+          "name": "Веб-дизайн",
+          "disabled": false
+        },
+        {
+          "id": "3",
+          "direction": "Дизайн",
+          "name": "UI / UX дизайн",
+          "disabled": false
+        },
+        {
+          "id": "4",
+          "direction": "Креативные концепции",
+          "name": "Графический дизайн",
+          "disabled": false
+        },
+        {
+          "id": "5",
+          "direction": "Креативные концепции",
+          "name": "Копирайтинг",
+          "disabled": false
+        },
+        {
+          "id": "6",
+          "direction": "Креативные концепции",
+          "name": "Рекламные кампании",
+          "disabled": false
+        },
+        {
+          "id": "7",
+          "direction": "Креативные концепции",
+          "name": "SMM-креатив",
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "id": "sort",
+      "name": "Сортировка",
+      "type": 1,
+      "default": "new",
+      "items": [
+        {
+          "id": "new",
+          "name": "Сначала новые",
+          "disabled": false
+        },
+        {
+          "id": "best",
+          "name": "Сначала популярные",
+          "disabled": false
+        }
+      ]
+    }
+  ]
+}

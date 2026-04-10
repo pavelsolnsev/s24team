@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+if ! command -v cwebp >/dev/null 2>&1; then
+  echo "Error: cwebp not found. Install WebP tools (e.g. 'brew install webp')." >&2
+  exit 127
+fi
+
+shopt -s nullglob
+
+pngs=( ./*.png ./*.PNG )
+if (( ${#pngs[@]} == 0 )); then
+  echo "No PNG files found in: $(pwd)"
+  exit 0
+fi
+
+for src in "${pngs[@]}"; do
+  base="${src%.*}"
+  dst="${base}.webp"
+  cwebp -q 90 "$src" -o "$dst" >/dev/null
+  echo "OK: ${src#./} -> ${dst#./}"
+done
+

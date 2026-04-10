@@ -1,0 +1,153 @@
+{
+  "items": [
+    {
+      "id": "1",
+      "name": "Праздники",
+      "authors": [
+        {
+          "id": "123458",
+          "name": "petrov2006",
+          "avatar": "/mocks/avatars/1.webp"
+        },
+        {
+          "id": "123458",
+          "name": "petrov2006",
+          "avatar": "/mocks/avatars/1.webp"
+        },
+        {
+          "id": "123458",
+          "name": "petrov2006",
+          "avatar": "/mocks/avatars/1.webp"
+        },
+        {
+          "id": "123456",
+          "name": "petrov2007",
+          "avatar": null
+        },
+        {
+          "id": "123456",
+          "name": "petrov2007",
+          "avatar": null
+        },
+        {
+          "id": "123457",
+          "name": "petrova2007",
+          "avatar": "/mocks/avatars/2.webp"
+        },
+        {
+          "id": "123458",
+          "name": "petrov2006",
+          "avatar": "/mocks/avatars/1.webp"
+        }
+      ],
+      "likes": 22,
+      "categories": [
+        "Упаковка",
+        "Графический дизайн"
+      ],
+      "watched": 25,
+      "image": "/mocks/best-projects/2.webp"
+    },
+    {
+      "id": "2",
+      "name": "Название прекрасной работы студента",
+      "authors": [
+        {
+          "id": "123456",
+          "name": "petrov2007",
+          "avatar": null
+        },
+        {
+          "id": "123457",
+          "name": "petrova2007",
+          "avatar": "/mocks/avatars/2.webp"
+        }
+      ],
+      "likes": 22,
+      "categories": [
+        "Упаковка",
+        "Графический дизайн"
+      ],
+      "watched": 25,
+      "image": "/mocks/best-projects/3.webp"
+    },
+    {
+      "id": "3",
+      "name": "Грусть",
+      "authors": [
+        {
+          "id": "123456",
+          "name": "petrov2007",
+          "avatar": null
+        }
+      ],
+      "likes": 150,
+      "categories": [
+        "Упаковка",
+        "Графический дизайн"
+      ],
+      "watched": 215,
+      "image": "/mocks/best-projects/1.webp"
+    },
+    {
+      "id": "4",
+      "name": "Неоновый цвет",
+      "authors": [
+        {
+          "id": "123456",
+          "name": "petrov2007",
+          "avatar": null
+        }
+      ],
+      "likes": 150,
+      "categories": [
+        "Упаковка",
+        "Графический дизайн"
+      ],
+      "watched": 215,
+      "image": "/mocks/best-projects/2.webp"
+    },
+    {
+      "id": "5",
+      "name": "Кофе",
+      "authors": [
+        {
+          "id": "123458",
+          "name": "petrov2006",
+          "avatar": "/mocks/avatars/1.webp"
+        }
+      ],
+      "likes": 150,
+      "categories": [
+        "Упаковка",
+        "Графический дизайн"
+      ],
+      "watched": 215,
+      "image": "/mocks/best-projects/3.webp"
+    },
+    {
+      "id": "6",
+      "name": "Цветы",
+      "authors": [
+        {
+          "id": "123456",
+          "name": "petrov2007",
+          "avatar": null
+        }
+      ],
+      "likes": 150,
+      "categories": [
+        "Упаковка",
+        "Графический дизайн"
+      ],
+      "watched": 215,
+      "image": "/mocks/best-projects/1.webp"
+    }
+  ],
+  "totalItems": 6,
+  "sort": "best",
+  "pagination": {
+    "pageSize": 10,
+    "currentPage": 1
+  }
+}

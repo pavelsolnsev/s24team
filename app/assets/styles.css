@@ -1,0 +1,195 @@
+@import 'tailwindcss';
+@import '@fontsource-variable/geologica';
+@import 'swiper/css';
+@import 'swiper/css/navigation';
+@import 'swiper/css/pagination';
+@import 'swiper/css/scrollbar';
+@import 'swiper/css/effect-fade';
+@import 'swiper/css/thumbs';
+@import 'swiper/css/grid';
+
+@theme {
+  --breakpoint-sm: 360px;
+  --breakpoint-lg: 991px;
+  --breakpoint-xl: 1920px;
+  --breakpoint-xxl: 2560px;
+
+  --color-black: #000000;
+  --color-black-90: #1a1a1a;
+  --color-black-95: #1b1b1b;
+  --color-white: #ffffff;
+  --color-primary: #141414;
+  --color-purple: #a357ff;
+  --color-purple-20: #bf89ff;
+  --color-purple-30: #b579ff;
+  --color-gray-10: #f1f1f1;
+  --color-gray-20: #e7e6ea;
+  --color-gray-40: #b3acbd;
+  --color-gray-60: #928c9e;
+  --color-gray-80: #5e5471;
+  --color-gray-90: #5a5a5a;
+  --color-gray-100: #434343;
+  --color-green: #00592b;
+  --color-red: #ff5566;
+  --color-glass-30: rgba(255, 255, 255, 0.3);
+  --color-glass-20: rgba(255, 255, 255, 0.2);
+  --font-display: 'Geologica Variable', 'sans-serif';
+  --default-transition-duration: 0.3s;
+  --shadow-border-red: inset 0 0 0 1px #ff5566;
+  --shadow-select: 0px 4px 8px 0px rgba(29, 29, 27, 0.16);
+  --shadow-btn: 0px 2px 8px 0px rgba(255, 255, 255, 0.16);
+  --spacing-select-offset: calc(100% + 5 * var(--spacing));
+}
+
+@layer base {
+  :root {
+    --spacing: calc(100dvw / 360);
+    @media (min-width: 991px) {
+      --spacing: calc(100dvw / 1920);
+    }
+  }
+  * {
+    outline: none;
+  }
+
+  /* Убираем фон браузера при автозаполнении (Chrome/Safari/Edge/Firefox) */
+  [data-atom='input'] input:-webkit-autofill,
+  [data-atom='input'] input:-webkit-autofill:hover,
+  [data-atom='input'] input:-webkit-autofill:focus,
+  [data-atom='input'] input:-webkit-autofill:active {
+    -webkit-text-fill-color: inherit !important;
+    caret-color: inherit !important;
+    transition: background-color 9999s ease-out 0s;
+    background-color: transparent !important;
+    -webkit-box-shadow: 0 0 0px 1000px var(--color-white) inset !important;
+    box-shadow: 0 0 0px 1000px var(--color-white) inset !important;
+  }
+
+  [data-atom='input'] input:autofill {
+    background-color: transparent !important;
+    box-shadow: 0 0 0px 1000px var(--color-white) inset !important;
+  }
+
+  [data-atom='input'] input:-moz-autofill {
+    background-color: transparent !important;
+    box-shadow: 0 0 0px 1000px var(--color-white) inset !important;
+  }
+
+  [id] {
+    @apply scroll-mt-40 md:scroll-mt-74 lg:scroll-mt-89;
+  }
+}
+
+@utility text-* {
+  font-size: calc(var(--spacing) * --value(integer));
+}
+@utility rounded-* {
+  border-radius: calc(var(--spacing) * --value(integer));
+}
+@utility rounded-t-* {
+  border-top-left-radius: calc(var(--spacing) * --value(integer));
+  border-top-right-radius: calc(var(--spacing) * --value(integer));
+}
+@utility rounded-b-* {
+  border-bottom-left-radius: calc(var(--spacing) * --value(integer));
+  border-bottom-right-radius: calc(var(--spacing) * --value(integer));
+}
+@utility rounded-r-* {
+  border-top-right-radius: calc(var(--spacing) * --value(integer));
+  border-bottom-right-radius: calc(var(--spacing) * --value(integer));
+}
+@utility rounded-l-* {
+  border-top-left-radius: calc(var(--spacing) * --value(integer));
+  border-bottom-left-radius: calc(var(--spacing) * --value(integer));
+}
+@utility rounded-tr-* {
+  border-top-right-radius: calc(var(--spacing) * --value(integer));
+}
+@utility rounded-tl-* {
+  border-top-left-radius: calc(var(--spacing) * --value(integer));
+}
+@utility rounded-br-* {
+  border-bottom-right-radius: calc(var(--spacing) * --value(integer));
+}
+@utility rounded-bl-* {
+  border-bottom-left-radius: calc(var(--spacing) * --value(integer));
+}
+@utility border-* {
+  border-width: calc(var(--spacing) * --value(integer));
+}
+@utility gap-* {
+  gap: calc(var(--spacing) * --value(integer));
+}
+@utility scrollbar-visible-* {
+  &::-webkit-scrollbar {
+    width: calc(var(--spacing) * --value(integer));
+  }
+}
+@utility border-t-* {
+  border-top-color: --value(--color-*);
+}
+@utility border-l-* {
+  border-left-color: --value(--color-*);
+}
+@utility border-spacing-* {
+  border-spacing: --value(--color-*);
+}
+
+/* УВЕДОМЛЕНИЯ: классы для v-html content */
+.ntf-link {
+  @apply text-purple underline;
+}
+.ntf-img {
+  @apply w-full h-156 lg:h-458 rounded-16 object-cover;
+}
+.ntf-img-mobile {
+  @apply block lg:hidden w-full h-156 lg:h-458 rounded-16 object-cover;
+}
+.ntf-footer {
+  @apply border-t border-gray-20 pt-20;
+}
+.ntf-blockquote {
+  @apply flex flex-col gap-20 p-16 rounded-16 bg-gray-10 text-14 leading-[1.3] -tracking-[0.01em] font-light text-gray-80;
+}
+.ntf-author {
+  @apply px-13 py-7 rounded-full bg-white inline-flex self-start max-w-full items-center gap-8 text-gray-60 min-w-0;
+}
+.ntf-avatar {
+  @apply flex items-center justify-center rounded-full size-22 min-w-22 border-1 border-purple;
+}
+.ntf-avatar-img {
+  @apply w-full h-full rounded-full object-cover;
+}
+.ntf-truncate {
+  @apply truncate;
+}
+
+@layer utilities {
+  .os-scroll {
+    & .os-scrollbar {
+      @apply w-6! top-14! lg:top-16! bottom-14! lg:bottom-16! right-8! p-0!;
+    }
+    & .os-scrollbar-track {
+      @apply rounded-full! bg-gray-40!;
+    }
+    & .os-scrollbar-handle {
+      @apply rounded-full! bg-gray-60!;
+    }
+  }
+
+  .os-scroll-flush {
+    & .os-scrollbar {
+      @apply top-0! bottom-0!;
+    }
+  }
+
+  .os-scroll-outside {
+    &[data-overlayscrollbars~='host'] {
+      overflow: visible !important;
+    }
+    & .os-scrollbar {
+      @apply -right-12! top-0! bottom-0!;
+    }
+  }
+
+}
