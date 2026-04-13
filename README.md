@@ -1,6 +1,5 @@
 # Демо портфолио (Nuxt)
-
-Учебный/демонстрационный фронтенд для портфолио. Реальный бэкенд не подключается без `NUXT_PUBLIC_API` в `.env` (см. `.env.example`). Прокси `/api` вернёт 503, пока URL API пустой.
+Реальный бэкенд не подключается без `NUXT_PUBLIC_API` в `.env` (см. `.env.example`). Прокси `/api` вернёт 503, пока URL API пустой.
 
 Официальная документация Nuxt: [nuxt.com/docs](https://nuxt.com/docs/getting-started/introduction).
 
